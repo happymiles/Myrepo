@@ -1,0 +1,4 @@
+ CREATE TABLE users( user_id int(11) primary key auto_increment, uname varchar(20), password varchar(20), email varchar(30));
+  CREATE TABLE brands( brand_id int(11) primary key auto_increment, brand_name varchar(20));
+    CREATE TABLE claims_pending_master( claim_id int(11) primary key auto_increment, claim_pending_date varchar(30),claimed_brands varchar(255),claim_ammount varchar(20),free_issue varchar(20),claim_submitted varchar(20));
+	
